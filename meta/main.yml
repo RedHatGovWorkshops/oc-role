@@ -1,0 +1,18 @@
+# file: roles/oc/meta/main.yml
+---
+galaxy_info:
+  author: Brad Sollar
+  description: oc binary + openshift templates.
+  company: Red Hat
+  license: MIT
+  min_ansible_version: 1.9
+  platforms:
+  - name: EL
+    versions:
+    - all
+  galaxy_tags:
+    - OpenShift
+    - Security
+
+
+dependencies:
